@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+.settings-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.word-list-settings,
+.countdown-settings {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 40%;
+  margin: 0 10px;
+}
+
+#word-list {
+  margin-bottom: 10px;
+}
+
+#countdown-time {
+  width: 50px;
+}

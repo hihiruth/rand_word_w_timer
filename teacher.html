@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher's Word List</title>
+  <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teacher's Word List</h1>
+    <div class="settings-container">
+      <div class="word-list-settings">
+        <h2>Word List Settings</h2>
+        <textarea id="word-list" rows="10" cols="30"></textarea>
+        <button id="save-words">Save Words</button>
+      </div>
+      <div class="countdown-settings">
+        <h2>Countdown Settings</h2>
+        <label for="countdown-time">Countdown Time (seconds):</label>
+        <input type="number" id="countdown-time" value="10">
+        <button id="save-countdown">Save Countdown</button>
+      </div>
+    </div>
+    <a href="index.html">Student's Page</a>
+  </div>
+  <script src="teacher.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff; 
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  text-align: center;
+}
+
+#word-card {
+  width: 50vw; 
+  height: 40vh; 
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.5s ease;
+  background-color: beige; 
+}
+
+#word {
+  font-size: 96px; 
+}
+
+#new-word-button, #stop-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+}
